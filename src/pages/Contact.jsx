@@ -20,7 +20,7 @@ const ContactPage = () => {
           <img
             alt={t('alt.logistics_bg')}
             className="w-full h-full object-cover grayscale brightness-[0.3]"
-            src="/assets/images/contact-hero.png"
+            src={`${import.meta.env.BASE_URL}assets/images/contact-hero.png`}
           />
           <div className="absolute inset-0 bg-gradient-to-r from-primary/40 to-transparent"></div>
         </div>

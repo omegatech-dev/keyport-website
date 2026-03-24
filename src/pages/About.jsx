@@ -14,7 +14,7 @@ const About = () => {
           <img
             alt={t('alt.honduras_map')}
             className="w-full h-full object-cover grayscale-[10%] brightness-[0.5]"
-            src="/assets/images/honduras-map-bg.png"
+            src={`${import.meta.env.BASE_URL}assets/images/honduras-map-bg.png`}
           />
         </div>
         <div className="container mx-auto px-8 relative z-10">
@@ -103,7 +103,7 @@ const About = () => {
                 <img
                   alt={t('alt.ceo_portrait')}
                   className="w-full h-full object-cover group-hover:scale-110 transition-all duration-700"
-                  src="/assets/images/keylin-orellana.png"
+                  src={`${import.meta.env.BASE_URL}assets/images/keylin-orellana.png`}
                 />
               </div>
               <div className="md:w-1/2 p-8 md:p-12 flex flex-col justify-center">
@@ -128,7 +128,7 @@ const About = () => {
                 <img
                   alt={t('alt.ops_portrait')}
                   className="w-full h-full object-cover group-hover:scale-110 transition-all duration-500"
-                  src="/assets/images/roberto-mendez.png"
+                  src={`${import.meta.env.BASE_URL}assets/images/roberto-mendez.png`}
                 />
               </div>
               <span className="text-secondary font-bold text-[10px] uppercase tracking-widest mb-1 block">
@@ -143,7 +143,7 @@ const About = () => {
                 <img
                   alt={t('alt.specialist_portrait')}
                   className="w-full h-full object-cover group-hover:scale-110 transition-all duration-500"
-                  src="/assets/images/elena-castillo.png"
+                  src={`${import.meta.env.BASE_URL}assets/images/elena-castillo.png`}
                 />
               </div>
               <span className="text-secondary font-bold text-[10px] uppercase tracking-widest mb-1 block">
@@ -264,7 +264,7 @@ const About = () => {
                 <img
                   alt={t('alt.ceo_quote')}
                   className="w-20 h-20 rounded-full object-cover border-2 border-primary"
-                  src="/assets/images/about-team-placeholder.png"
+                  src={`${import.meta.env.BASE_URL}assets/images/about-team-placeholder.png`}
                 />
               </div>
               <div>

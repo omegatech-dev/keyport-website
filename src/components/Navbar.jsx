@@ -34,7 +34,7 @@ const Navbar = () => {
           <img
             alt="Keyport Logistic Lines Logo"
             className="h-10 w-auto group-hover:scale-105 transition-transform"
-            src="/assets/images/logo.png"
+            src={`${import.meta.env.BASE_URL}assets/images/logo.png`}
           />
         </Link>
 

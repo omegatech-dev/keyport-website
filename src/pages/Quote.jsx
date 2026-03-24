@@ -36,7 +36,7 @@ const QuotePage = () => {
           <img
             alt={t('alt.logistics_ship')}
             className="w-full h-full object-cover"
-            src="/assets/images/quote-hero.png"
+            src={`${import.meta.env.BASE_URL}assets/images/quote-hero.png`}
           />
         </div>
         <div className="relative container mx-auto px-8 py-20 grid md:grid-cols-2 gap-12 items-center w-full">

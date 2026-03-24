@@ -14,7 +14,7 @@ const Services = () => {
           <img
             className="w-full h-full object-cover grayscale-[20%] brightness-[0.4]"
             alt={t('alt.ship')}
-            src="/assets/images/services-hero.png"
+            src={`${import.meta.env.BASE_URL}assets/images/services-hero.png`}
           />
         </div>
         <div className="relative z-10 max-w-7xl mx-auto px-8 w-full">
@@ -142,7 +142,7 @@ const Services = () => {
               <img
                 className="w-full h-full object-cover"
                 alt={t('alt.logistics_bg')}
-                src="/assets/images/services-logistics.png"
+                src={`${import.meta.env.BASE_URL}assets/images/services-logistics.png`}
               />
             </div>
             <div className="absolute -bottom-8 -right-8 bg-primary p-10 rounded-xl shadow-xl hidden lg:block">

@@ -17,7 +17,7 @@ const HomePage = () => {
             className="w-full h-full object-cover brightness-[0.85] saturate-[1.1]"
             style={{ animation: 'slow-zoom 30s ease-in-out infinite alternate' }}
             alt={t('alt.hero_car')}
-            src="/assets/images/car-carrier-4k.jpg"
+            src={`${import.meta.env.BASE_URL}assets/images/car-carrier-4k.jpg`}
           />
           {/* Enhanced Overlay Gradient */}
           <div className="absolute inset-0 bg-gradient-to-r from-[#f8fafc] via-[#f8fafc]/90 to-[#f8fafc]/20 lg:via-[#f8fafc]/80 lg:to-transparent"></div>
@@ -131,7 +131,7 @@ const HomePage = () => {
               <div className="w-full md:w-1/2 overflow-hidden">
                 <img
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
-                  src="/assets/images/auction-banner.png"
+                  src={`${import.meta.env.BASE_URL}assets/images/auction-banner.png`}
                   alt={t('alt.auction')}
                 />
               </div>
