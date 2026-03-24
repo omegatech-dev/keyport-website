@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 
 const Footer = () => {
   const { t } = useTranslation();
-  
+
   return (
     <footer className="bg-surface-container-low text-on-surface py-20 px-8">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
@@ -24,7 +24,7 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        
+
         <div className="space-y-6">
           <h4 className="font-headline font-bold text-[#00628f]">{t('footer.services')}</h4>
           <ul className="space-y-4 text-sm font-body text-on-surface-variant">
@@ -34,7 +34,7 @@ const Footer = () => {
             <li className="hover:text-primary cursor-pointer transition-colors"><Link to="/services">{t('footer.service4')}</Link></li>
           </ul>
         </div>
-        
+
         <div className="space-y-6">
           <h4 className="font-headline font-bold text-[#00628f]">{t('footer.company')}</h4>
           <ul className="space-y-4 text-sm font-body text-on-surface-variant">
@@ -44,7 +44,7 @@ const Footer = () => {
             <li className="hover:text-primary cursor-pointer transition-colors">{t('footer.faqs')}</li>
           </ul>
         </div>
-        
+
         <div className="space-y-6">
           <h4 className="font-headline font-bold text-[#00628f]">{t('footer.contact')}</h4>
           <ul className="space-y-4 text-sm font-body text-on-surface-variant">
@@ -58,12 +58,12 @@ const Footer = () => {
             </li>
             <li className="flex items-center gap-3">
               <span className="material-symbols-outlined text-primary text-sm">mail</span>
-              <span>info@keyportlogistic.com</span>
+              <span>gerencia@keyportlogisticlines.com</span>
             </li>
           </ul>
         </div>
       </div>
-      
+
       <div className="max-w-7xl mx-auto mt-20 pt-8 border-t border-outline-variant/20 flex flex-col md:flex-row justify-between items-center gap-4">
         <p className="text-xs text-slate-500 font-label">{t('footer.rights')}</p>
       </div>
